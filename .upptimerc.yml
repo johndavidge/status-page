@@ -3,8 +3,6 @@ owner: johndavidge # Your GitHub organization or username, where this repository
 repo: status-page # The name of this repository
 
 sites:
-  - name: Google
-    url: $GOOGLE_URL
   - name: Vulnerability Feed
     url: $VULN_URL
     headers:
@@ -28,10 +26,10 @@ status-website:
   logoUrl: https://anchore.com/wp-content/uploads/2023/01/logo-1.svg
   name: Hosted Feeds Status
   introTitle: "**Hosted Feeds Status**"
-  introMessage: This is a Hosted Feeds status page blah blah blah.
-  navbar:
-    - title: Status
-      href: /
+  introMessage: This is the Hosted Feeds status page lorum ipsum.
+  # navbar:
+  #  - title: Status
+  #    href: /
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
