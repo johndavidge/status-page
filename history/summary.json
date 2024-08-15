@@ -1,20 +1,62 @@
 [
   {
-    "name": "Hosted Feeds API",
-    "url": "https://www.google.com",
-    "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
-    "slug": "hosted-feeds-api",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 93,
-    "timeDay": 93,
-    "timeWeek": 93,
-    "timeMonth": 93,
-    "timeYear": 93,
-    "dailyMinutesDown": {}
+    "name": "Vulnerability Feed",
+    "url": "$VULN_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "vulnerability-feed",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2024-08-15": 0
+    }
+  },
+  {
+    "name": "ClamAV Feed",
+    "url": "$CLAMAV_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "clam-av-feed",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2024-08-15": 0
+    }
+  },
+  {
+    "name": "KEV Feed",
+    "url": "$KEV_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "kev-feed",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2024-08-15": 0
+    }
   }
 ]
