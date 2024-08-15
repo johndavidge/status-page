@@ -3,6 +3,8 @@ owner: johndavidge # Your GitHub organization or username, where this repository
 repo: status-page # The name of this repository
 
 sites:
+  - name: Google
+    url: $GOOGLE_URL
   - name: Vulnerability Feed
     url: $VULN_URL
     headers:
@@ -11,7 +13,7 @@ sites:
   - name: ClamAV Feed
     url: $CLAMAV_URL
     headers:
-    - "x-api-key: " $API_KEY
+    - "x-api-key: $API_KEY"
     - "Content-Type: application/json"
   - name: KEV Feed
     url: $KEV_URL
