@@ -18,7 +18,7 @@ sites:
   - name: KEV Feed
     url: $KEV_URL
     headers:
-    - "x-api-key: $API_KEY"
+    - "x-api-key: "
     - "Content-Type: application/json"
 
 status-website:
