@@ -31,9 +31,9 @@ status-website:
   introTitle: "**Hosted Feeds Status**"
   introMessage: This is the Hosted Feeds status page lorum ipsum.
   favicon: https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://anchore.com/&size=32
-  # navbar:
-  #  - title: Status
-  #    href: /
+  navbar:
+    - title: Support
+      href: https://get.anchore.com/contact/
 
 i18n:
   footer: Service provided by [Anchore](https://anchore.com/), status page powered by [Upptime](https://upptime.js.org)
