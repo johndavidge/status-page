@@ -5,16 +5,19 @@ repo: status-page # The name of this repository
 sites:
   - name: Vulnerability Feed
     url: $VULN_URL
+    icon: https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://anchore.com/&size=32
     headers:
     - "x-api-key: $API_KEY"
     - "Content-Type: application/json"
   - name: ClamAV Feed
     url: $CLAMAV_URL
+    icon: https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://anchore.com/&size=32
     headers:
     - "x-api-key: $API_KEY"
     - "Content-Type: application/json"
   - name: KEV Feed
     url: $KEV_URL
+    icon: https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://anchore.com/&size=32
     headers:
     - "x-api-key: "
     - "Content-Type: application/json"
@@ -27,9 +30,13 @@ status-website:
   name: Hosted Feeds Status
   introTitle: "**Hosted Feeds Status**"
   introMessage: This is the Hosted Feeds status page lorum ipsum.
+  favicon: https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://anchore.com/&size=32
   # navbar:
   #  - title: Status
   #    href: /
+
+i18n:
+  footer: Service provided by [Anchore](https://anchore.com/), status page powered by [Upptime](https://upptime.js.org)
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
