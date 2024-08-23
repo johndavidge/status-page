@@ -26,6 +26,8 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name theres
   baseUrl: /status-page
+  apiBaseUrl: https://p6h532xmxla356kddksbhb5gea0kccvz.lambda-url.us-east-1.on.aws/
+  userContentBaseUrl: https://p6h532xmxla356kddksbhb5gea0kccvz.lambda-url.us-east-1.on.aws/
   logoUrl: https://anchore.com/wp-content/uploads/2023/01/logo-1.svg
   name: Hosted Feeds Status
   introTitle: "**Hosted Feeds Status**"
